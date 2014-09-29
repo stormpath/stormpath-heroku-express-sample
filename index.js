@@ -11,4 +11,8 @@ app.get('/', function(req, res) {
   res.send("Hey there! Thanks for visting the site! Be sure to <a href='/login'>login</a>!");
 });
 
+app.get('/dashboard', stormpath.loginRequired, function(req, res) {
+  res.json(req.user);
+});
+
 app.listen(process.env.PORT || 3000);
