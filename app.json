@@ -1,5 +1,5 @@
 {
-  "name": "Stormpath + Heroku + Express.js Sample",
+  "name": "Stormpath + Express.js Sample",
   "description": "A simple app built with Express.js, Stormpath, and Heroku.",
   "repository": "https://github.com/stormpath/stormpath-heroku-express-sample",
   "logo": "http://docs.stormpath.com/images/heroku/stormpath-icon.svg",
