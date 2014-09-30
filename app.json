@@ -1,0 +1,14 @@
+{
+  "name": "Express.js + Stormpath + Heroku Sample",
+  "description": "A simple app built with Express.js, Stormpath, and Heroku.",
+  "repository": "https://github.com/stormpath/express-stormpath-heroku-sample",
+  "logo": "http://docs.stormpath.com/images/heroku/stormpath-icon.svg",
+  "keywords": ["node", "express", "stormpath", "heroku", "sample"],
+  "addons": ["stormpath"],
+  "env": {
+    "STORMPATH_SECRET_KEY": {
+      "description": "This is auto-generated.",
+      "generator": "secret"
+    }
+  }
+}
